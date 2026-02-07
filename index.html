@@ -59,8 +59,41 @@
       </section>
 
       <section id="products-section">
-        <h2 class="section-title">Featured Products</h2>
-        <div id="product-grid" class="shop-section"></div>
+        <h2 class="section-title">Explore Our Collection</h2>
+        
+        <div class="main-container">
+          
+          <aside id="filters-section">
+            <div class="filter-group">
+              <h3>Category</h3>
+              <select id="category-selection">
+                <option value="">All Categories</option>
+                <option value="Electronics">Electronics</option>
+                <option value="Fashion">Fashion</option>
+                <option value="Furniture">Furniture</option>
+                <option value="Kitchen">Kitchen</option>
+                <option value="Appliances">Appliances</option>
+                <option value="Books">Books</option>
+              </select>
+            </div>
+      
+            <div class="filter-group">
+              <h3>Gender</h3>
+              <label><input type="radio" name="gender" value="" checked> All</label>
+              <label><input type="radio" name="gender" value="male"> Male</label>
+              <label><input type="radio" name="gender" value="female"> Female</label>
+              <label><input type="radio" name="gender" value="unisex"> Unisex</label>
+            </div>
+      
+            <div class="filter-group">
+              <h3>Rating: <span id="rating-output">0</span>⭐</h3>
+              <input id="rating-input" type="range" step="0.5" min="0" max="5" value="0"/>
+              <p>Minimum Rating</p>
+            </div>
+          </aside>
+      
+          <div id="product-grid" class="shop-section"></div>
+        </div>
       </section>
     </main>
 

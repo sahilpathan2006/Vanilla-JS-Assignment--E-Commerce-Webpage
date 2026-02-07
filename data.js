@@ -7,6 +7,8 @@ export const products = [
     originalPrice: 2999,
     discountedPrice: 1080,
     image: 'https://m.media-amazon.com/images/I/61YUFXeXhVL._SX522_.jpg',
+    gender: 'unisex',
+    category: 'Electronics',
   },
   {
     id: 2,
@@ -16,7 +18,10 @@ export const products = [
     originalPrice: 1699,
     discountedPrice: 699,
     image: 'https://m.media-amazon.com/images/I/415eT4KVNAL._SX522_.jpg',
+    gender: 'unisex',
+    category: 'Electronics',
   },
+
   {
     id: 3,
     name: 'Bluetooth Smart Fitness Band Watch',
@@ -26,6 +31,8 @@ export const products = [
     discountedPrice: 729,
     image:
       'https://m.media-amazon.com/images/I/41FkX-hsdFL._SY300_SX300_QL70_FMwebp_.jpg',
+      gender: 'unisex',
+      category: 'Electronics',
   },
 
   {
@@ -36,6 +43,8 @@ export const products = [
     originalPrice: 15999,
     discountedPrice: 4242,
     image: 'https://m.media-amazon.com/images/I/715TFYYk2-L._SX522_.jpg',
+    gender: 'unisex',
+    category: 'Furniture',
   },
 
   {
@@ -46,6 +55,8 @@ export const products = [
     originalPrice: 48999,
     discountedPrice: 14799,
     image: 'https://m.media-amazon.com/images/I/61kNSvi3KOL._SX425_.jpg',
+    gender: 'unisex',
+    category: 'Furniture',
   },
 
   {
@@ -56,6 +67,8 @@ export const products = [
     originalPrice: 1999,
     discountedPrice: 449,
     image: 'https://m.media-amazon.com/images/I/619xMvtqClL._SY550_.jpg',
+    gender: 'male',
+    category: 'Fashion',
   },
 
   {
@@ -66,6 +79,8 @@ export const products = [
     originalPrice: 1890,
     discountedPrice: 1590,
     image: 'https://m.media-amazon.com/images/I/51WLLO95EmL._SX425_.jpg',
+    gender: 'unisex',
+    category: 'Kitchen',
   },
 
   {
@@ -76,6 +91,8 @@ export const products = [
     originalPrice: 1599,
     discountedPrice: 328,
     image: 'https://m.media-amazon.com/images/I/619sSmzbUjL._SX425_.jpg',
+    gender: 'unisex',
+    category: 'Kitchen',
   },
 
   {
@@ -86,6 +103,8 @@ export const products = [
     originalPrice: 17190,
     discountedPrice: 21960,
     image: 'https://m.media-amazon.com/images/I/61JgdFOGofL._SY500_.jpg',
+    gender: 'unisex',
+    category: 'Appliances',
   },
 
   {
@@ -96,6 +115,8 @@ export const products = [
     originalPrice: 79999,
     discountedPrice: 42999,
     image: 'https://m.media-amazon.com/images/I/71mGKn+VMaL._SY355_.jpg',
+    gender: 'unisex',
+    category: 'Electronics',
   },
 
   {
@@ -106,6 +127,8 @@ export const products = [
     originalPrice: 59200,
     discountedPrice: 34490,
     image: 'https://m.media-amazon.com/images/I/51qw5c+kH4L._SX466_.jpg',
+    gender: 'unisex',
+    category: 'Electronics',
   },
 
   {
@@ -117,6 +140,8 @@ export const products = [
     discountedPrice: 51800,
     image:
       'https://m.media-amazon.com/images/I/41BLIQSWmiL._SY300_SX300_QL70_FMwebp_.jpg',
+      gender: 'unisex',
+    category: 'Electronics',
   },
 
   {
@@ -127,6 +152,8 @@ export const products = [
     originalPrice: 19999,
     discountedPrice: 16999,
     image:'https://m.media-amazon.com/images/I/71cXQm1s52L._SX522_.jpg',
+    gender: 'unisex',
+    category: 'Electronics',
   },
 
   {
@@ -137,7 +164,9 @@ export const products = [
     originalPrice: 3199,
     discountedPrice: 799 ,
     image:
-      ' https://m.media-amazon.com/images/I/61Lgfcc+o-L._SY355_.jpg',
+      'https://m.media-amazon.com/images/I/61Lgfcc+o-L._SY355_.jpg',
+      gender: 'unisex',
+    category: 'Electronics',
   },
 
   {
@@ -149,6 +178,8 @@ export const products = [
     discountedPrice: 449 ,
     image:
       'https://m.media-amazon.com/images/I/61N03oj9kyL._SY550_.jpg ',
+      gender: 'male',
+    category: 'Fashion',
   },
 
 {
@@ -160,6 +191,8 @@ export const products = [
     discountedPrice: 499,
     image:
       ' https://m.media-amazon.com/images/I/71gKdgJnB-L._SY550_.jpg',
+      gender: 'female',
+    category: 'Fashion',
   },
 
   {
@@ -171,6 +204,8 @@ export const products = [
     discountedPrice: 375,
     image:
       'https://m.media-amazon.com/images/I/81YGZqRDcdL._SY550_.jpg ',
+      gender: 'female',
+    category: 'Fashion',
   },
 
   {
@@ -182,6 +217,8 @@ export const products = [
     discountedPrice: 799,
     image:
       ' https://m.media-amazon.com/images/I/71t3af2BAEL._SY550_.jpg',
+      gender: 'female',
+    category: 'Fashion',
   },
 
   {
@@ -193,6 +230,8 @@ export const products = [
     discountedPrice: 1619,
     image:
       ' https://m.media-amazon.com/images/I/51PTqbIeK6L._SY550_.jpg',
+      gender: 'male',
+    category: 'Fashion',
   },
 
   {
@@ -204,6 +243,8 @@ export const products = [
     discountedPrice: 291,
     image:
       'https://m.media-amazon.com/images/I/31jubCkFM7L.jpg ',
+      gender: 'male',
+    category: 'Fashion',
   },
 
   {
@@ -215,6 +256,8 @@ export const products = [
     discountedPrice: 6208,
     image:
       'https://m.media-amazon.com/images/I/71mSdhPAw5L._SX425_.jpg ',
+      gender: 'unisex',
+    category: 'Kitchen',
   },
 
   {
@@ -226,6 +269,8 @@ export const products = [
     discountedPrice: 1599,
     image:
       'https://m.media-amazon.com/images/I/71rH4vEE4nL._SX425_.jpg ',
+      gender: 'unisex',
+    category: 'Kitchen',
   },
 
   {
@@ -237,6 +282,8 @@ export const products = [
     discountedPrice: 1449,
     image:
       'https://m.media-amazon.com/images/I/61iKvcMlvgL._SX425_.jpg ',
+      gender: 'unisex',
+    category: 'Kitchen',
   },
 
   {
@@ -248,6 +295,8 @@ export const products = [
     discountedPrice: 1099,
     image:
       'https://m.media-amazon.com/images/I/51x15vgzI2L._SX425_.jpg ',
+      gender: 'unisex',
+    category: 'Kitchen',
   },
 
   {
@@ -259,6 +308,8 @@ export const products = [
     discountedPrice: 6489,
     image:
       'https://m.media-amazon.com/images/I/71UR127z1jL._SX425_.jpg ',
+      gender: 'unisex',
+    category: 'Furniture',
   },
 
   {
@@ -270,6 +321,8 @@ export const products = [
     discountedPrice: 15439,
     image:
       'https://m.media-amazon.com/images/I/71hI+XoAYPL._SX425_.jpg ',
+      gender: 'unisex',
+    category: 'Furniture',
   },
 
   {
@@ -281,6 +334,8 @@ export const products = [
     discountedPrice: 290,
     image:
       'https://m.media-amazon.com/images/I/71bPjur3oQL._SX425_.jpg ',
+      gender: 'unisex',
+    category: 'Furniture',
   },
 
   {
@@ -292,6 +347,8 @@ export const products = [
     discountedPrice: 778,
     image:
       'https://m.media-amazon.com/images/I/51KUqwFxpBL._SX425_.jpg ',
+      gender: 'unisex',
+    category: 'Furniture',
   },
 
   {
@@ -303,6 +360,8 @@ export const products = [
     discountedPrice: 9999,
     image:
       'https://m.media-amazon.com/images/I/61lyVN9E-ML._SX425_.jpg ',
+      gender: 'unisex',
+    category: 'Furniture',
   },
 
   {
@@ -314,6 +373,8 @@ export const products = [
     discountedPrice: 333,
     image:
       'https://m.media-amazon.com/images/I/51T8OXMiB5L._SY445_SX342_FMwebp_.jpg ',
+      gender: 'unisex',
+    category: 'Books',
   },
 
   {
@@ -325,6 +386,8 @@ export const products = [
     discountedPrice: 149,
     image:
       'https://m.media-amazon.com/images/I/71sBtM3Yi5L._SY342_.jpg ',
+      gender: 'unisex',
+    category: 'Books',
   },
 
   {
@@ -336,5 +399,56 @@ export const products = [
     discountedPrice: 261,
     image:
       'https://m.media-amazon.com/images/I/617lxveUjYL._SY342_.jpg ',
+      gender: 'unisex',
+    category: 'Books',
   },
+
+  {
+    id: 33,
+    name: 'Oven Toaster Grill| Toast, Grill, Bake & Roast',
+    rating: 3.2,
+    discount: 67,
+    originalPrice: 5999,
+    discountedPrice: 1999,
+    image: 'https://m.media-amazon.com/images/I/61tKaKicD8L._SX679_.jpg',
+    gender: 'unisex',
+    category: 'Appliances',
+  },
+
+  {
+    id: 34,
+    name: ' 240L 2 Star Frost Free Top Mount Double Door Refrigerator ',
+    rating: 4.2,
+    discount: 29,
+    originalPrice: 29990,
+    discountedPrice: 21299,
+    image: 'https://m.media-amazon.com/images/I/61oinNdgo9L._SX679_.jpg',
+    gender: 'unisex',
+    category: 'Appliances',
+  },
+
+  {
+    id: 35,
+    name: 'Water Purifier, RO + UF Purification, Vital Magnesium Enriched, 7-stages, 7L Storage',
+    rating: 4.0,
+    discount: 54,
+    originalPrice: 17995,
+    discountedPrice: 8199,
+    image: 'https://m.media-amazon.com/images/I/41G08o+KEtL._SX679_.jpg',
+    gender: 'unisex',
+    category: 'Appliances',
+  },
+
+  {
+    id: 36,
+    name: '15-L 5 Star Rated Storage Water Heater (Geyser) with Advanced 3 Level Safety',
+    rating: 3.8,
+    discount: 47,
+    originalPrice: 10400,
+    discountedPrice: 5499,
+    image: 'https://m.media-amazon.com/images/I/515nNlnjmSL._SX679_.jpg',
+    gender: 'unisex',
+    category: 'Appliances',
+  },
+
 ];

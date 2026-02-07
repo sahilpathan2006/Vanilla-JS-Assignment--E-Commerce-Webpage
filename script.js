@@ -1,14 +1,18 @@
 import { products } from './data.js';
 
 const grid = document.getElementById('product-grid');
+const categoryDropdown = document.getElementById('category-selection');
+const genderRadios = document.querySelectorAll('input[name="gender"]');
+const ratingInput = document.getElementById('rating-input');
+const ratingOutput = document.getElementById('rating-output');
 
-function displayProducts() {
+function displayProducts(filteredList) {
   if (!grid) return;
+  grid.innerHTML = '';
 
-  products.forEach((item) => {
+  filteredList.forEach((item) => {
     const productCard = document.createElement('div');
     productCard.className = 'product-card';
-
     productCard.innerHTML = `
             <img src="${item.image}" alt="${item.name}">
             <div class="product-info">
@@ -26,4 +30,24 @@ function displayProducts() {
   });
 }
 
-displayProducts();
+function applyFilters() {
+  const category = categoryDropdown.value;
+  const gender = document.querySelector('input[name="gender"]:checked').value;
+  const rating = parseFloat(ratingInput.value);
+
+  ratingOutput.innerText = rating;
+
+  const result = products.filter(p => {
+    return (category === '' || p.category === category) &&
+           (gender === '' || p.gender === gender) &&
+           (p.rating >= rating);
+  });
+
+  displayProducts(result);
+}
+
+categoryDropdown.addEventListener('change', applyFilters);
+genderRadios.forEach(radio => radio.addEventListener('change', applyFilters));
+ratingInput.addEventListener('input', applyFilters);
+
+displayProducts(products);

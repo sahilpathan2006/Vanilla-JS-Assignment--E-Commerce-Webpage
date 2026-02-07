@@ -13,7 +13,7 @@ function displayProducts() {
             <img src="${item.image}" alt="${item.name}">
             <div class="product-info">
                 <h3>${item.name}</h3>
-                <p class="rating">${item.rating} ★★★★☆</p>
+                <p class="rating">${item.rating} ★</p>
                 <div class="price-container">
                     <span class="old-price">&#8377;${item.originalPrice}</span>
                     <span class="new-price">&#8377;${item.discountedPrice}</span>

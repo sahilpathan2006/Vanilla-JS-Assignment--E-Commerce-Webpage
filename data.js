@@ -118,4 +118,223 @@ export const products = [
     image:
       'https://m.media-amazon.com/images/I/41BLIQSWmiL._SY300_SX300_QL70_FMwebp_.jpg',
   },
+
+  {
+    id: 13,
+    name: 'Redmi Pad 2 Wi-Fi + Cellular, Active Pen Support, 27.94cm(11") Model ',
+    rating: 4.3,
+    discount: 15,
+    originalPrice: 19999,
+    discountedPrice: 16999,
+    image:'https://m.media-amazon.com/images/I/71cXQm1s52L._SX522_.jpg',
+  },
+
+  {
+    id: 14,
+    name: 'Mini Bluetooth Speaker with Wireless Karaoke Mic ',
+    rating: 4.0,
+    discount: 75,
+    originalPrice: 3199,
+    discountedPrice: 799 ,
+    image:
+      ' https://m.media-amazon.com/images/I/61Lgfcc+o-L._SY355_.jpg',
+  },
+
+  {
+    id: 15,
+    name: 'Lymio Jackets || Jacket for men ',
+    rating: 3.8 ,
+    discount:  78,
+    originalPrice:1999 ,
+    discountedPrice: 449 ,
+    image:
+      'https://m.media-amazon.com/images/I/61N03oj9kyL._SY550_.jpg ',
+  },
+
+{
+    id: 16,
+    name: ' GRECIILOOKS Women Poly Lycra Standard Length Oversized Jacket Korean Style Casual Outerwear ',
+    rating: 4.3 ,
+    discount: 78 ,
+    originalPrice:2299 ,
+    discountedPrice: 499,
+    image:
+      ' https://m.media-amazon.com/images/I/71gKdgJnB-L._SY550_.jpg',
+  },
+
+  {
+    id:17 ,
+    name: 'Madnoo Women Casual Printed Sleeveless Peplum Top ',
+    rating:4.1  ,
+    discount: 71 ,
+    originalPrice:1299 ,
+    discountedPrice: 375,
+    image:
+      'https://m.media-amazon.com/images/I/81YGZqRDcdL._SY550_.jpg ',
+  },
+
+  {
+    id: 18,
+    name: 'Women Embroidery Solid Anarkali Kurta and Pant Set with Dupatta ',
+    rating: 4.0 ,
+    discount:  73,
+    originalPrice:2999 ,
+    discountedPrice: 799,
+    image:
+      ' https://m.media-amazon.com/images/I/71t3af2BAEL._SY550_.jpg',
+  },
+
+  {
+    id: 19,
+    name: "Men's Stylish Ethnic Wear Black Kurta Pajama Set with Long Jacket",
+    rating:  3.5,
+    discount:  60,
+    originalPrice:3999 ,
+    discountedPrice: 1619,
+    image:
+      ' https://m.media-amazon.com/images/I/51PTqbIeK6L._SY550_.jpg',
+  },
+
+  {
+    id:20 ,
+    name: ' Flawsome Boys Muslimwear',
+    rating:  4.0,
+    discount: 71 ,
+    originalPrice:999 ,
+    discountedPrice: 291,
+    image:
+      'https://m.media-amazon.com/images/I/31jubCkFM7L.jpg ',
+  },
+
+  {
+    id: 21,
+    name: 'AMERICAN MICRONIC® 6.5 L Digital Air Fryer | 1700W Rapid Air Technology ',
+    rating:4.5 ,
+    discount: 38 ,
+    originalPrice:9980 ,
+    discountedPrice: 6208,
+    image:
+      'https://m.media-amazon.com/images/I/71mSdhPAw5L._SX425_.jpg ',
+  },
+
+  {
+    id: 22,
+    name: 'NutriPro Juicer Mixer Grinder - Smoothie Maker  ',
+    rating:  4.4,
+    discount:  68,
+    originalPrice:5000 ,
+    discountedPrice: 1599,
+    image:
+      'https://m.media-amazon.com/images/I/71rH4vEE4nL._SX425_.jpg ',
+  },
+
+  {
+    id: 23,
+    name: 'Morphy Richards Europa Drip Espresso Coffee Machine ',
+    rating: 3.9 ,
+    discount:  53,
+    originalPrice:3095 ,
+    discountedPrice: 1449,
+    image:
+      'https://m.media-amazon.com/images/I/61iKvcMlvgL._SX425_.jpg ',
+  },
+
+  {
+    id: 24,
+    name: 'Pigeon 2 Slice Auto Pop up Toaster ',
+    rating:  3.7,
+    discount: 39 ,
+    originalPrice:1799 ,
+    discountedPrice: 1099,
+    image:
+      'https://m.media-amazon.com/images/I/51x15vgzI2L._SX425_.jpg ',
+  },
+
+  {
+    id: 25,
+    name: 'Imperium | Leatherette Ergonomic Boss Chair | Spacious Cushioned Seat ',
+    rating: 3.8 ,
+    discount:  59,
+    originalPrice: 15999,
+    discountedPrice: 6489,
+    image:
+      'https://m.media-amazon.com/images/I/71UR127z1jL._SX425_.jpg ',
+  },
+
+  {
+    id:26 ,
+    name: ' Solimo Petra Solid Sheesham Wood King Bed ',
+    rating: 3.6 ,
+    discount: 69 ,
+    originalPrice: 50000,
+    discountedPrice: 15439,
+    image:
+      'https://m.media-amazon.com/images/I/71hI+XoAYPL._SX425_.jpg ',
+  },
+
+  {
+    id:27,
+    name: ' Set top Box Stand | WiFi Router Holder Wooden Wall Shelves',
+    rating:  4.1,
+    discount:  58,
+    originalPrice:698 ,
+    discountedPrice: 290,
+    image:
+      'https://m.media-amazon.com/images/I/71bPjur3oQL._SX425_.jpg ',
+  },
+
+  {
+    id: 28,
+    name: 'Modern Wooden Bedside Table with 3 Shelves ',
+    rating:  3.8,
+    discount: 35 ,
+    originalPrice: 1200,
+    discountedPrice: 778,
+    image:
+      'https://m.media-amazon.com/images/I/51KUqwFxpBL._SX425_.jpg ',
+  },
+
+  {
+    id:29 ,
+    name: 'Single Seater Swing Chair with Stand & Cushion Outdoor Indoor Balcony Garden Patio ',
+    rating: 4.7 ,
+    discount:  55,
+    originalPrice:21999 ,
+    discountedPrice: 9999,
+    image:
+      'https://m.media-amazon.com/images/I/61lyVN9E-ML._SX425_.jpg ',
+  },
+
+  {
+    id: 30,
+    name: 'Ikigai: The Japanese secret to a long and happy life ',
+    rating: 4.6  ,
+    discount: 44 ,
+    originalPrice:599 ,
+    discountedPrice: 333,
+    image:
+      'https://m.media-amazon.com/images/I/51T8OXMiB5L._SY445_SX342_FMwebp_.jpg ',
+  },
+
+  {
+    id:31 ,
+    name: 'The Power of Your Subconscious ',
+    rating: 4.4 ,
+    discount: 46,
+    originalPrice:275 ,
+    discountedPrice: 149,
+    image:
+      'https://m.media-amazon.com/images/I/71sBtM3Yi5L._SY342_.jpg ',
+  },
+
+  {
+    id: 32,
+    name: 'The Alchemist ',
+    rating: 4.6 ,
+    discount: 35 ,
+    originalPrice: 399,
+    discountedPrice: 261,
+    image:
+      'https://m.media-amazon.com/images/I/617lxveUjYL._SY342_.jpg ',
+  },
 ];
